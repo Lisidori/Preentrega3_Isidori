@@ -1,0 +1,138 @@
+/* {   }*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 1 - Body -----------*/
+body {background-image: url(../Assets/1_Foto_de_\ Fondo.jpeg);
+    background-size: cover;}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2 - Header -----------*/
+header {display: flex; /* con esto le digo q lo muestre horizontal*/
+    justify-content: space-between; /* con esto le digo q muestre logo en una esquina y menu en en otra*/
+    background: linear-gradient(132deg, rgba(123, 0, 53, 1) 28%, rgba(164, 138, 0, 1) 42%, rgba(123, 0, 53, 1) 55%);
+    align-items: center;
+    padding: 10px;}
+
+.logolink {display: flex;/* con esto le digo q lo muestre horizontal*/
+    justify-content: space-between;/* con esto le digo q muestre logo en una esquina y menu en en otra*/}
+
+.ConfiLud {display: flex; /* con esto le digo q lo muestre horizontal*/
+    color: #f6b26b;
+    font-weight: normal;
+    text-decoration: none;/*esto le saca subrayado a los links*/
+    text-align: center;
+    font-family: "pacifico";
+    margin-left: 10px;
+    margin-top: 5px;}
+
+.links {text-decoration: none;
+    color: #f6b26b;
+    font-weight: normal;
+    padding-right: 10px;
+    font-family: "pacifico";
+    font-size: large;}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2.1 - Logo -----------*/
+.Logoheader {height: 50px;
+    width: 50px;
+    margin: 0px 0px 0px 0px;}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2. 2 - Hover y cambio de forma del cursor -----------*/
+.links:hover {color: white;
+	cursor: pointer;}
+
+.ConfiLud:hover {color: white;
+	cursor: pointer;}
+
+.links2:hover {color: white;
+        cursor: pointer;}    
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 3 - Main -----------*/
+.ConfiLudmila{margin-top: 20px;}
+
+.ConfiLudmila2{ font-family: "pacifico";
+    font-size: 110px;
+    color:  rgb(123, 0, 53);
+    text-align: center;
+    background-color: rgba(248, 245, 246, 0.737);
+    margin-left: 300px;
+    border: solid rgb(123, 0, 53);}
+/*  ----------------------*/
+
+.Menu_bienvenida{
+    margin-left: 130px;
+    margin-top: 25px;
+    margin-right:190px ;
+    background-color: rgba(248, 245, 246, 0.737);
+    height: auto;
+    width: auto;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: (6, 1fr);
+    grid-template-rows: (1, 1fr);
+    grid-template-areas: "Grid1 Grid2 Grid3 Grid4 Grid5 Grid6";
+    justify-content: space-between;
+    align-content: center;
+    gap: 3px;
+    text-align: center;}
+
+.links2{font-size: 20px;
+    font-family: "pacifico";
+    color:rgb(123, 0, 53);
+    text-decoration: none;}
+
+.Imagen{margin-top: 3px;}
+
+.Grid1{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+.Grid2{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+.Grid3{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+.Grid4{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+.Grid5{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+.Grid6{height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);}
+
+
+
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/* --------------  4 - Footer  ------------ */
+footer {height: 45px;
+    background-color: rgb(123, 0, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* ----estos ultimos 3 son para mantenerlo en el fondo siempre ---- */
+    position: absolute;
+    bottom: 0%;
+    width: 100%;}
+
+.piedepagina {
+    display: flex;
+    color: #f6b26b;
+    font-weight: normal;
+    font-family: "pacifico";}
+
+.gps {margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 6px;}
+
+.ig {margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6px;}
+
+.fb {margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6px;}
