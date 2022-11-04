@@ -1,0 +1,177 @@
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  ------------- 3 - Main -----------*/
+.ConfiLudmila {
+    margin-top: 20px;
+}
+
+.ConfiLudmila2 {
+    font-family: "pacifico";
+    font-size: 110px;
+    color: rgb(123, 0, 53);
+    text-align: center;
+    background-color: rgba(248, 245, 246, 0.737);
+    margin-left: 300px;
+    border: solid rgb(123, 0, 53);
+}
+
+/*  ----------------------*/
+
+.Menu_bienvenida {
+    margin-left: 130px;
+    margin-top: 25px;
+    margin-right: 190px;
+    background-color: rgba(248, 245, 246, 0.737);
+    height: auto;
+    width: auto;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: (6, 1fr);
+    grid-template-rows: (1, 1fr);
+    grid-template-areas: "Grid1 Grid2 Grid3 Grid4 Grid5 Grid6";
+    justify-content: space-between;
+    align-content: center;
+    gap: 3px;
+    text-align: center;
+}
+
+.links2 {
+    font-size: 20px;
+    font-family: "pacifico";
+    color: rgb(123, 0, 53);
+    text-decoration: none;
+}
+
+.Imagen {
+    margin-top: 3px;
+}
+
+.Grid1 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid2 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid3 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid4 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid5 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid6 {
+    height: 255px;
+    width: 215px;
+    border: solid rgb(123, 0, 53);
+}
+
+/*  --------------------------------------------------------------------------------------------*/
+/*  ----------------------------- Páginas --------------------------------------*/
+.paginas{
+    margin-top: 20px;
+}
+
+.paginas2 {
+    font-family: "pacifico";
+    font-size: 40px;
+    color: rgb(123, 0, 53);
+    text-align: center;
+    background-color: rgba(248, 245, 246, 0.737);
+    margin-left: 300px;
+    border: solid rgb(123, 0, 53);
+}
+.Fotosdepaginas{ margin-left: 130px;
+    margin-top: 25px;
+    margin-right: 190px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: (6, 1fr);
+    grid-template-rows: (1, 1fr);
+    grid-template-areas: "Grid1p Grid2p Grid3p Grid4p Grid5p Grid6p";
+    justify-content: space-between;
+    align-content: center;
+    gap: 3px;
+    text-align: center;
+
+}
+
+.Grid1p{height: 210px;
+    width: 210px;    
+    border: solid rgb(123, 0, 53);
+}
+
+.Grid2p 
+{@extend .Grid1p;}
+
+.Grid3p 
+{@extend .Grid1p;}
+
+.Grid4p 
+{@extend .Grid1p;}
+
+.Grid5p 
+{@extend .Grid1p;}
+
+.Grid6p 
+{@extend .Grid1p;}
+
+
+/*  --------------------------------------------------------------------------------------------*/
+/*  -----------------------------formulario de contacto--------------------------------------*/
+.divo {
+    justify-content: center;
+    text-align: center;
+    border: solid black;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "pacifico";
+    font-size: 24px;
+    color: rgb(123, 0, 53);
+    background-color: rgba(248, 245, 246, 0.737);
+}
+
+fieldset {
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "pacifico";
+    font-size: 24px;
+    color: rgb(123, 0, 53);
+    background-color: rgba(248, 245, 246, 0.737);
+    border: solid black;
+}
+.casillanombre{
+    margin-left: 3px;
+    width: 525px;
+    height: 25px;}
+
+.casillacontacto {
+    margin-left: 3px;
+    width: 525px;
+    height: 25px;}
+
+.casillamensaje {
+    margin-left: 3px;
+    width: 525px;
+    height: 100px;}
+
+
+

@@ -1,0 +1,29 @@
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/* --------------  4 - Footer  ------------ */
+footer {height: 45px;
+    background-color: rgb(123, 0, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* ----estos ultimos 3 son para mantenerlo en el fondo siempre ---- */
+    position: absolute;
+    bottom: 0%;
+    width: 100%;}
+
+.piedepagina {
+    display: flex;
+    color: #f6b26b;
+    font-weight: normal;
+    font-family: "pacifico";}
+
+.gps {margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 6px;}
+
+.ig {margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6px;}
+
+.fb {margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6px;}

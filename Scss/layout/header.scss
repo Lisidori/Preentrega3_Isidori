@@ -1,0 +1,41 @@
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2 - Header -----------*/
+header {display: flex; /* con esto le digo q lo muestre horizontal*/
+    justify-content: space-between; /* con esto le digo q muestre logo en una esquina y menu en en otra*/
+    background: linear-gradient(132deg, rgba(123, 0, 53, 1) 28%, rgba(164, 138, 0, 1) 42%, rgba(123, 0, 53, 1) 55%);
+    align-items: center;
+    padding: 10px;}
+
+.logolink {display: flex;/* con esto le digo q lo muestre horizontal*/
+    justify-content: space-between;/* con esto le digo q muestre logo en una esquina y menu en en otra*/}
+
+.ConfiLud {display: flex; /* con esto le digo q lo muestre horizontal*/
+    color: #f6b26b;
+    font-weight: normal;
+    text-decoration: none;/*esto le saca subrayado a los links*/
+    text-align: center;
+    font-family: "pacifico";
+    margin-left: 10px;
+    margin-top: 5px;}
+
+.links {text-decoration: none;
+    color: #f6b26b;
+    font-weight: normal;
+    padding-right: 10px;
+    font-family: "pacifico";
+    font-size: large;}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2.1 - Logo -----------*/
+.Logoheader {height: 50px;
+    width: 50px;
+    margin: 0px 0px 0px 0px;}
+/*  ---------------------------------------------------------------------------------------------------------------------------------------------------*/  
+/*  ------------- 2. 2 - Hover y cambio de forma del cursor -----------*/
+.links:hover {color: white;
+	cursor: pointer;}
+
+.ConfiLud:hover {color: white;
+	cursor: pointer;}
+
+.links2:hover {color: white;
+        cursor: pointer;}    
